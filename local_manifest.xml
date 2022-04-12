@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="alternoegraha" fetch="https://github.com/alternoegraha" />
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ 
+ <!-- Device Tree -->
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="alternoegraha" revision="twelve" />
+ 
+ <!-- Vendor tree -->
+ <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Yukina-Supremacy" revision="twelve" />
+ 
+</manifest>
