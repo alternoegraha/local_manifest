@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest> 
+<manifest>
+ <!--Remote-->
+ <remote name="alternoegraha" fetch="https://github.com/alternoegraha" />
+ <remote name="Mayuri-Chan" fetch="https://github.com/Mayuri-Chan" />
+ 
+ <!--Trees-->
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="alternoegraha/android_device_xiaomi_garden-11.git" remote="github" revision="l1" />
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden-11" remote="alternoegraha" revision="11" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="Mayuri-Chan/proprietary_vendor_xiaomi_garden" remote="github" revision="11" />
+ <project path="vendor/xiaomi/garden" name="proprietary_vendor_xiaomi_garden" remote="Mayuri-Chan" revision="11" />
  
 </manifest>
