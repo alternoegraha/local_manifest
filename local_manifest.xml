@@ -5,7 +5,7 @@
  <remote name="Yukina-Supremacy" fetch="https://github.com/Yukina-Supremacy" />
  
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="alternoegraha" revision="havoc5_vndk30" />
+ <project path="device/xiaomi/garden" name="android_device_xiaomi_garden" remote="alternoegraha" revision="arrow_vndk30" />
  
  <!-- Vendor tree -->
  <project path="vendor/xiaomi/garden" name="android_vendor_xiaomi_garden" remote="Yukina-Supremacy" revision="twelve30" />
