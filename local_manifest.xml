@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
  <!-- Device Tree -->
- <project path="device/xiaomi/garden" name="alternoegraha/android_device_xiaomi_garden.git" remote="github" revision="twelve29" />
+ <project path="device/xiaomi/garden" name="alternoegraha/android_device_xiaomi_garden.git" remote="github" revision="twelve30" />
  
  <!-- Vendor tree -->
- <project path="vendor/xiaomi/garden" name="Yukina-Supremacy/android_vendor_xiaomi_garden.git" remote="github" revision="twelve29" />
- 
+ <project path="vendor/xiaomi/garden" name="Yukina-Supremacy/android_vendor_xiaomi_garden.git" remote="github" revision="twelve30" />
 </manifest>
