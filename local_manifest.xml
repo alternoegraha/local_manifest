@@ -2,6 +2,7 @@
 <manifest>
           
         <remote name="github" fetch="https://github.com" />
+        <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
         <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="tiramisu" />
@@ -10,6 +11,9 @@
         <project path="vendor/xiaomi/sm6225-common" name="dblenk-project/vendor_xiaomi_sm6225-common" remote="github" revision="lineage-20.0" />
         <project path="kernel/xiaomi/sm6225-common" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="github" revision="lineage-19.1" />
 
+        <!-- Clang -->  
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+          
         <!-- qcom-sepolicy -->
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="github" />
