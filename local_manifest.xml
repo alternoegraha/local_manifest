@@ -18,7 +18,4 @@
         <remove-project name="android_device_qcom_sepolicy" />
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="github" />
           
-        <!-- deal with it -->
-        <remove-project name="kernel/xiaomi/ginkgo" />
-
 </manifest>
