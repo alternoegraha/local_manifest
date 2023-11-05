@@ -5,17 +5,12 @@
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="evolution-new" />
-        <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="thirteen" />
-        <project path="device/xiaomi/sm6225-common" name="alternoegraha/device_xiaomi_sm6225-common" remote="github" revision="evolution-new" />
-        <project path="vendor/xiaomi/sm6225-common" name="alternoegraha/vendor_xiaomi_sm6225-common" remote="github" revision="thirteen" />
-        <project path="kernel/xiaomi/sm6225-common" name="dblenk-project/kernel_xiaomi_sm6225-common_header" remote="github" revision="lineage-19.1" />
+        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="evo14-test" />
+        <project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="fourteen" />
+        <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fourteen" />
+        <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
 
         <!-- Clang -->  
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-          
-        <!-- qcom-sepolicy -->
-        <remove-project name="android_device_qcom_sepolicy" />
-        <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" revision="lineage-20.0" remote="github" />
+        <!-- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /> -->
           
 </manifest>
