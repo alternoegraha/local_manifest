@@ -5,7 +5,7 @@
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="evo14-test" />
+        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="14-test" />
         <project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="fourteen" />
         <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fourteen" />
         <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
