@@ -5,13 +5,8 @@
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="14-test" />
-        <project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="fourteen" />
+        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="lineage-21" />
         <project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fourteen" />
-        <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
-        <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="fourteen" />
-
-        <!-- Clang -->  
-        <!-- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /> -->
+        <project path="kernel/xiaomi/fog" name="alternoegraha/kernel_xiaomi_fog_14" remote="github" revision="fog-r-oss" />
           
 </manifest>
