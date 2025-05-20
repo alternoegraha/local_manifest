@@ -4,7 +4,7 @@
 	<remote  name="github" fetch="https://github.com/" />
 	
 	<!-- Sync trees -->
-	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="fifteen-staging" />
+	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="fifteen" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
 	<project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="fifteen" />
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="prebuilt" />
