@@ -10,6 +10,9 @@
 	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21" />
 	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="vic" />
 
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<project path="packages/apps/Settings" name="alternoegraha/android_packages_apps_Settings" remote="github" revision="lineage-22.2" />
+
 	<remove-project name="LineageOS/android_packages_apps_Updater" />
 	<project path="packages/apps/Updater" name="alternoegraha/lineage_packages_apps_Updater" remote="github" revision="lineage-22.2" />
 
