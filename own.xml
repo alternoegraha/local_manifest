@@ -1,0 +1,13 @@
+<?xmnl version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="alternoegraha/android_vendor_lineage-18.1" remote="github" />
+
+  <remove-project name="LineageOS/android_packages_overlays_Lineage" />
+  <project path="packages/overlays/Lineage" name="alternoegraha/lineage_packages_overlays_Lineage" remote="github" />
+
+  <!-- GMS -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="rho" remote="Gitlab" />
+
+</manifest>
