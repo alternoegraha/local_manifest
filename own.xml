@@ -10,4 +10,7 @@
   <!-- GMS -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="rho" remote="Gitlab" />
 
+  <!-- Extras from LOS-Revived -->
+  <project path="vendor/prebuilts" name="LineageOS-Revived/android_vendor_prebuilts" remote="github" />
+
 </manifest>
