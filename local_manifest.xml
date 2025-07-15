@@ -8,4 +8,5 @@
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
 	<project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="sixteen" />
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="prebuilt" />
+	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="pixelos" />
 </manifest>
