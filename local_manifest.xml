@@ -10,7 +10,7 @@
 	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21" />
 
 	<!-- GMS -->
-	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="vic" />
+	<project path="vendor/gapps" name="axionaosp/vendor_gapps" remote="gitlab" revision="vic" />
 
 	<!-- track my custom forks -->
 	<remove-project name="LineageOS/android_frameworks_base" />
