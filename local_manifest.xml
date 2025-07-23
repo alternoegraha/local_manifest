@@ -9,6 +9,7 @@
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
 	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21" />
+	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-22-real" />
 
 	<!-- GMS -->
 	<project path="vendor/gapps" name="axionaosp/vendor_gapps" remote="gitlab" revision="vic" />
