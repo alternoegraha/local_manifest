@@ -15,6 +15,8 @@
 	<project path="vendor/gapps" name="axionaosp/vendor_gapps" remote="gitlab" revision="vic" />
 
 	<!-- track my custom forks -->
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" groups="pdk" remote="github" revision="lineage-22.2" />
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project path="frameworks/base" name="alternoegraha/lineage_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" revision="lineage-22.2" />
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
