@@ -26,7 +26,9 @@
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-22.2" />
 
-	<!-- track system/update_engine from crDroid -->
+	<!-- track some stuffs from crDroid -->
+	<remove-project name="LineageOS/android_system_sepolicy" />
+	<project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="github" />
 	<remove-project name="LineageOS/android_system_update_engine" />
 	<project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="github" revision="15.0" />
 </manifest>
