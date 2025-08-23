@@ -11,4 +11,8 @@
 	<!-- track my custom forks -->
 	<remove-project name="AxionAOSP/android_packages_apps_Launcher3" />
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="axion-16" />
+	<remove-project name="AxionAOSP/android_vendor_addons" />
+	<project path="vendor/addons" name="alternoegraha/android_vendor_addons" remote="github" revision="axion-16" />
+	<remove-project name="AxionAOSP/android_vendor_lineage" />
+	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="axion-16" />
 </manifest>
