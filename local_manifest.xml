@@ -8,7 +8,7 @@
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="ksu-and-bpf" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
-	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21" />
+	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-23.0" />
 	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-23" />
 
 	<!-- GMS -->
@@ -23,4 +23,11 @@
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0" />
+
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" remote="github" groups="pdk" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
+	<project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="github" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_system_sepolicy" />
+	<project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" remote="github" groups="pdk" revision="lineage-23.0" />
 </manifest>
