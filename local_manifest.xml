@@ -2,7 +2,7 @@
 <manifest>
 	<!-- Sync trees -->
 	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="axion-16" />
-	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="prebuilt" />
+	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="ksu-and-bpf" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="fifteen-qpr2" />
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
 	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="axion-16" />
@@ -11,8 +11,6 @@
 	<!-- track my custom forks -->
 	<remove-project name="AxionAOSP/android_packages_apps_Launcher3" />
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="axion-16" />
-	<remove-project name="AxionAOSP/android_vendor_addons" />
-	<project path="vendor/addons" name="alternoegraha/android_vendor_addons" remote="github" revision="axion-16" />
 	<remove-project name="AxionAOSP/android_vendor_lineage" />
 	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="axion-16" />
 </manifest>
