@@ -30,4 +30,12 @@
 	<project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" remote="github" groups="pdk" revision="lineage-23.0" />
+
+	<!-- track Vanadium -->
+	<remove-project name="LineageOS/android_external_chromium-webview_patches" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86" />
+	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" />
+	<project path="external/vanadium" name="GrapheneOS/platform_external_vanadium" remote="gitlab" revision="16" clone-depth="1" />
 </manifest>
