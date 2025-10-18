@@ -22,7 +22,7 @@
 	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0" />
+	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0-vanadium" />
 
 	<remove-project name="LineageOS/android_bootable_recovery" />
 	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" remote="github" groups="pdk" revision="lineage-23.0" />
