@@ -15,8 +15,20 @@
 	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" />
 
 	<!-- track my custom forks -->
+	<remove-project name="LineageOS/android_build" />
+	<project path="build/make" name="alternoegraha/android_build-lineage" groups="pdk,sysui-studio" remote="github" revision="lineage-23.0" >
+    	<linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    	<linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    	<linkfile src="core" dest="build/core" />
+    	<linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    	<linkfile src="target" dest="build/target" />
+    	<linkfile src="tools" dest="build/tools" />
+	</project>
+
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project path="frameworks/base" name="alternoegraha/lineage_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_frameworks_native" />
+	<project path="frameworks/native" name="alternoegraha/lineage_frameworks_native" groups="pdk" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project path="packages/apps/Settings" name="alternoegraha/android_packages_apps_Settings" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
