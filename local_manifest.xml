@@ -12,7 +12,7 @@
 	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-23" />
 
 	<!-- GMS -->
-	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" />
+	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" clone-depth="1" />
 
 	<!-- track my custom forks -->
 	<remove-project name="LineageOS/android_build" />
@@ -25,6 +25,10 @@
     	<linkfile src="tools" dest="build/tools" />
 	</project>
 
+	<remove-project name="LineageOS/android_bootable_recovery" />
+	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" remote="github" groups="pdk" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
+	<project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project path="frameworks/base" name="alternoegraha/lineage_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_frameworks_native" />
@@ -33,15 +37,14 @@
 	<project path="packages/apps/Settings" name="alternoegraha/android_packages_apps_Settings" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_packages_apps_Launcher3" />
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0-vanadium" />
-
-	<remove-project name="LineageOS/android_bootable_recovery" />
-	<project path="bootable/recovery" name="alternoegraha/lineage_bootable_recovery" remote="github" groups="pdk" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
-	<project path="device/lineage/sepolicy" name="alternoegraha/android_device_lineage_sepolicy" remote="github" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project path="packages/modules/Connectivity" name="alternoegraha/lineage_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_system_bpf" />
+	<project path="system/bpf" name="alternoegraha/lineage_system_bpf" groups="pdk" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" remote="github" groups="pdk" revision="lineage-23.0" />
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0-vanadium" />
 
 	<!-- track Vanadium -->
 	<remove-project name="LineageOS/android_external_chromium-webview_patches" />
