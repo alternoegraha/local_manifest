@@ -39,11 +39,11 @@
 	<project path="packages/apps/Launcher3" name="alternoegraha/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project path="packages/modules/Connectivity" name="alternoegraha/lineage_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-23.0" />
-	<remove-project name="LineageOS/android_system_bpf" />
+	<remove-project name="platform/system/bpf" />
 	<project path="system/bpf" name="alternoegraha/lineage_system_bpf" groups="pdk" remote="github" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_system_logging" />
 	<project path="system/logging" name="alternoegraha/lineage_system_logging" groups="pdk" remote="github" revision="lineage-23.0" />
-	<remove-project name="platform/system/bpf" />
+	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project path="system/sepolicy" name="alternoegraha/lineage_system_sepolicy" remote="github" groups="pdk" revision="lineage-23.0" />
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project path="vendor/lineage" name="alternoegraha/android_vendor_lineage" remote="github" revision="lineage-23.0-vanadium" />
