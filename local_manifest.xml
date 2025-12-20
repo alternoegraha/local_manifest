@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote  name="gitlab" fetch="https://gitlab.com/" />
-	<remote  name="github" fetch="https://github.com/" />
+	<remote  name="me" fetch="https://github.com/" />
 	
 	<!-- Sync trees -->
-	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="sixteen" />
-	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="25qx-staging" />
-	<project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="github" revision="sixteen-qpr1" />
-	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="ksu-and-bpf" />
-	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="pixel16" />
-	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="pixelos" />
+	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="me" revision="sixteen" />
+	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="me" revision="25qx-staging" />
+	<project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="me" revision="sixteen-qpr1" />
+	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="me" revision="ksu-and-bpf" />
+	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="me" revision="pixel16" />
+	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="me" revision="pixelos" />
           
 </manifest>
