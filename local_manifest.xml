@@ -5,10 +5,7 @@
 	<!-- Sync trees -->
 	<!-- lineage-23 could be a device tree for LineageOS 23.0, but I could say it "LineageOS 25Qx series" -->
 	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="me" revision="mica" />
-	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="me" revision="ksu-and-bpf" />
+	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="me" revision="bpf" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="me" revision="25qx-staging" />
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="me" revision="lineage-23.0" />
-
-	<remove-project name="frameworks_base" />
-	<project path="frameworks/base" name="heya-silly-uwu/mica_frameworks_base" remote="me" revision="16-qpr1" />
 </manifest>
