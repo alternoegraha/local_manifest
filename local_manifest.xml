@@ -5,6 +5,6 @@
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="motregen" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="lineage-21-uq1a" />
 	<project path="hardware/xiaomi" name="cringe-stuff-at-2am/android_hardware_xiaomi" remote="github" revision="lineage-21-uq1a" />
-	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21-uq1a" />
+	<project path="vendor/lineage-priv/keys" name="alternoegraha/keys" remote="github" revision="lineage-21-uq1a" />
 	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-21-uq1a" />
 </manifest>
