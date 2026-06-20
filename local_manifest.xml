@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>	
 	<!-- Sync trees -->
-	<!-- lineage-23 could be a device tree for LineageOS 23.0, but I could say it "LineageOS 25Qx series" -->
-	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="lineage-23" />
+	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="lineage-21-pre-qpr2" />
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="github" revision="motregen" />
-	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="baklava-and-beyond" />
-	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
-	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-23.0" />
-	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-23" />
-
-	<!-- GMS -->
-	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="gitlab" revision="baklava" clone-depth="1" />
+	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="github" revision="lineage-21-uq1a" />
+	<project path="hardware/xiaomi" name="cringe-stuff-at-2am/android_hardware_xiaomi" remote="github" revision="lineage-21-uq1a" />
+	<project path="vendor/lineage-priv" name="alternoegraha/keys" remote="github" revision="lineage-21-uq1a" />
+	<project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="github" revision="lineage-21-uq1a" />
 </manifest>
