@@ -5,7 +5,7 @@
 	<!-- Sync trees -->
 	<project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="me" revision="yaap-17" />
 	<project path="vendor/xiaomi/fog" name="alternoegraha/vendor_xiaomi_fog" remote="me" revision="cp2a" />
-	<project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="me" revision="seventeen" />
+	<project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="me" revision="seventeen" />
 	<project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="me" revision="motregen" />
 	<!-- <project path="vendor/lineage-priv" name="alternoegraha/keys" remote="me" revision="pixel16" /> -->
 	<!-- <project path="vendor/extra" name="alternoegraha/android_vendor_extra" remote="me" revision="pixelos-17" /> -->
